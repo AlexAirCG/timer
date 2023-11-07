@@ -14,10 +14,10 @@ function counts() {
 	// seconds
 	let sec = Math.floor(gap / 1000) % 60;
 
-	document.getElementById('d').innerText = days + ' day';
-	document.getElementById('h').innerText = hours + ' hours';
-	document.getElementById('m').innerText = min + ' min';
-	document.getElementById('s').innerText = sec + ' sec';
+	document.getElementById('d').innerText = days + ' день';
+	document.getElementById('h').innerText = hours + ' час';
+	document.getElementById('m').innerText = min + ' мин';
+	document.getElementById('s').innerText = sec + ' сек';
 }
 
 counts();

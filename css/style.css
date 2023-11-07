@@ -91,6 +91,11 @@ h3 {
   text-align: center;
   margin-bottom: 20px;
 }
+@media (max-width: 500px) {
+  h3 {
+    font-size: 20px;
+  }
+}
 
 .row {
   position: absolute;
@@ -101,14 +106,28 @@ h3 {
 
 .group {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 10px;
   font-size: 25px;
 }
+@media (max-width: 500px) {
+  .group {
+    font-size: 12px;
+    gap: 5px;
+  }
+}
 
 .badge {
-  width: 120px;
   color: #ffffff;
   padding: 10px;
   background-color: rgb(65, 104, 58);
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .badge {
+    padding: 5px;
+    border-radius: 3px;
+  }
 }
